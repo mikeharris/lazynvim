@@ -2,8 +2,10 @@ return {
   {
     "f-person/git-blame.nvim",
     dependencies = {},
-    opts = { enabled = 0, date_format = "%r" },
-    keys = { { "<leader>gb", "<cmd>GitBlameToggle<cr>", desc = "GitBlame Toggle" } },
-    config = true,
+    opts = { enabled = false, date_format = "%r" },
+    keys = {
+      { "<leader>gb", "<cmd>GitBlameToggle<cr>", desc = "GitBlame Toggle" },
+      { "<leader>go", "<cmd>GitBlameOpenCommitURL<cr>", desc = "GitBlame Open Commit Url" },
+    },
   },
 }
