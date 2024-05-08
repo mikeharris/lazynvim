@@ -8,3 +8,5 @@ vim.keymap.set("n", "<leader>gtf", "<cmd>Telescope git_files<cr>", { desc = "Tel
 vim.keymap.set("n", "<leader>gtB", "<cmd>Telescope git_branches<cr>", { desc = "Telescope Git Branches" })
 vim.keymap.set("n", "<leader>gts", "<cmd>Telescope git_status<cr>", { desc = "Telescope Git Status" })
 vim.keymap.set("n", "<leader>gtS", "<cmd>Telescope git_stash<cr>", { desc = "Telescope Git Stash" })
+vim.keymap.set("n", "<leader>gSj", "<cmd>GoTagAdd json <cr>", { desc = "Gopher add json struct tags" })
+vim.keymap.set("n", "<leader>gSy", "<cmd>GoTagAdd yaml <cr>", { desc = "Gopher add yaml struct tags" })
