@@ -1,5 +1,5 @@
 return {
-  {
+  --[[{
     "telescope.nvim",
     dependencies = {
       "nvim-telescope/telescope-fzf-native.nvim",
@@ -8,11 +8,12 @@ return {
         require("telescope").load_extension("fzf")
       end,
     },
-  },
+  },]]
+  --
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nord",
+      colorscheme = "catppuccin",
     },
   },
 }
