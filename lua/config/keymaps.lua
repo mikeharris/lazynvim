@@ -11,4 +11,4 @@ vim.keymap.set("n", "<leader>gtS", "<cmd>Telescope git_stash<cr>", { desc = "Tel
 vim.keymap.set("n", "<leader>gSj", "<cmd>GoTagAdd json<cr>", { desc = "Gopher add json struct tags" })
 vim.keymap.set("n", "<leader>gSy", "<cmd>GoTagAdd yaml<cr>", { desc = "Gopher add yaml struct tags" })
 vim.keymap.set("n", "<leader>uP", "<cmd>lua require('precognition').toggle()<cr>", { desc = "Toggle Precognition" })
-vim.keymap.set("n", "<leader>uH", "<cmd>HighlightColors Toggle<cr>", { desc = "Toggle Highlight Colors" })
+vim.keymap.set("n", "<leader>fy", "<cmd>Telescope yank_history<cr>", { desc = "Telescope Yank History" })
